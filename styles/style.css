@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #5CA4D6;
+}
+
+
+#mainContainer {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.col {
+  display: inline-block;
+  width: 28%;
+  height: 100%;
+  margin: 2%;
+  vertical-algin: top;
+}
+
+h1 {
+   color: white;
+   font-family: "Helvetica";
+  margin-top: 2%;
+  margin-bottom: 0%;
+   font-size: 24px;
+  
+}
+
+input {
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+}
+
+texarea {
+  width: 100%;
+  display: inline-block;
+}
+
+input:focus {
+  outline: none;
+  background: tomato;
+  color: white;
+}
+
+.shape {
+  width: 100%;
+  height: 100%;
+  border: medium solid black;
+  opacity: .5;
+}
+
+.shape:hover {
+  opacity: 1;
+  border:solid #2A6A98;
+  width: 80%;
+  background: pink;
+  transition: .5s all ease;
+
+}
+
+
+::-webkit-input-placeholder {
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: left;
+ font-weight: bold;
+}
+
+a {
+  text-decoration:none;
+  font-family: "Helvetica";
+  color: white;
+  
+}
+
+a:hover {
+  color: pink;
+}
+
+
+select {
+  width: 100%;
+  height: 5%;
+  font-family: "Helvetica";
+  color: white;
+  background-color: pink;
+  border: thin solid black;
+  font-size: 100%;
+}
+
+    
+@media only screen and (max-width: 640px) {
+  
+  .col  {
+    display: block;
+		max-width: 70%;
+  }
+  
+  h1 a input {
+    display: block;
+  }
+ 
+	
+}
+    
