@@ -72,6 +72,14 @@ input:focus {
  font-weight: bold;
 }
 
+::-webkit-textarea-placeholder {
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: left;
+ font-weight: bold;
+}
+
 a {
   text-decoration:none;
   font-family: "Helvetica";
